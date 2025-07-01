@@ -5,7 +5,6 @@ const Card = (props) => {
     const {
         theme
     }= useContexts();
-    // "bg-white p-4 rounded-lg shadow"
   return (
     <div className={`${theme ? 'bg-white' : 'bg-gray-700'} p-4 rounded-lg shadow`}>
       <h3 className="text-base text-gray-500">{props.title}</h3>
