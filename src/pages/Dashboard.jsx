@@ -11,7 +11,7 @@ const Dashboard = () => {
     u.brand.toLowerCase() === search.toLowerCase()
   );
 
-  const selectedUser = filteredUsers[0]; // use the first matched user
+  const selectedUser = filteredUsers[0]; 
 
   return (
     <div className={`${theme ? 'bg-white' : 'bg-gray-800 text-white'} space-y-6 p-2 rounded`}>
