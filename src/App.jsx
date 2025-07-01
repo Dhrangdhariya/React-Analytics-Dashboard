@@ -7,7 +7,7 @@ import Users from './pages/Users';
 import Settings from './pages/Settings';
 import Products from './pages/Products';
 import { useContexts } from './context/Contexts';
-// import './App.css'
+
 
 function App() {
   const {
@@ -18,7 +18,6 @@ function App() {
 
   return (
     <>
-    {/* flex h-screen bg-gray-100 */}
       <Router>
         <div className={`${theme ? 'bg-gray-100' : 'bg-gray-600'} flex h-screen `}>
           <Sidebar />
