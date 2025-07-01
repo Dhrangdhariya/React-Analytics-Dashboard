@@ -5,7 +5,6 @@ const Products = () => {
     user,
     theme,
   } = useContexts();
-// bg-gray-100
   return (
     <div className={`${theme ? 'bg-white' : 'bg-gray-800 text-white'} p-4 rounded-lg shadow`}>
       <h2 className="text-lg font-semibold mb-4">Product Inventory</h2>
